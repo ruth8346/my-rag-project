@@ -1,0 +1,24 @@
+# סביבה וירטואלית וסיסמאות (חשוב מאוד!)
+.env
+venv/
+.venv/
+env/
+
+# הגדרות של סביבת העבודה (VS Code / PyCharm)
+.idea/
+.vscode/
+
+# קבצי זיכרון ונתונים של ה-RAG (בדרך כלל לא מעלים אותם לגיט)
+storage/
+__pycache__/
+*.py[cod]
+
+# קבצי נתונים מקומיים
+structured_data.json
+
+# קבצים זמניים או תוצרי גרפים
+workflow_graph.html
+workflow_graph.png
+
+# תיקיות של ספריות חיצוניות (במידה והן לא חלק מהקוד שלך)
+# lib/
